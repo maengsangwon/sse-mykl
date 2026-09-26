@@ -1,7 +1,7 @@
 (function (root) {
   let dataPromise;
   async function records() {
-    if (!dataPromise) dataPromise = fetch('/static/demo-data.json').then(r => {
+    if (!dataPromise) dataPromise = fetch('./static/demo-data.json').then(r => {
       if (!r.ok) throw new Error('시연 자료를 불러오지 못했습니다. 페이지를 새로고침해주세요.');
       return r.json();
     }).catch(e => { dataPromise = null; throw e; });

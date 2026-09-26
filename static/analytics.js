@@ -41,7 +41,7 @@ function render(){
   el('download').disabled=!n;
   const params=new URLSearchParams({region:region.value,type:type.value,year:year.value,indicator:indicator.value});history.replaceState(null,'',location.pathname+'?'+params+location.hash);
 }
-async function load(){el('retry').hidden=true;el('analysis-content').hidden=true;el('analysis-status').textContent='시연 자료를 불러오는 중입니다.';try{const response=await fetch('/static/demo-data.json');if(!response.ok)throw Error('load');data=await response.json();if(!Array.isArray(data)||!data.every(x=>x.organization&&Array.isArray(x.disclosures)))throw Error('format');
+async function load(){el('retry').hidden=true;el('analysis-content').hidden=true;el('analysis-status').textContent='시연 자료를 불러오는 중입니다.';try{const response=await fetch('./static/demo-data.json');if(!response.ok)throw Error('load');data=await response.json();if(!Array.isArray(data)||!data.every(x=>x.organization&&Array.isArray(x.disclosures)))throw Error('format');
   for(const [select,values,label] of [[region,[...new Set(data.map(x=>x.organization.region))].sort(),'전체 지역'],[type,[...new Set(data.flatMap(x=>x.organization.types))].sort(),'전체 유형'],[year,[...new Set(data.flatMap(x=>x.disclosures.map(d=>d.year)))].sort((a,b)=>b-a),null]]){select.replaceChildren();if(label)select.add(new Option(label,''));for(const value of values)select.add(new Option(value,value));}
   const params=new URLSearchParams(location.search);for(const [key,input] of [['region',region],['type',type],['year',year],['indicator',indicator]])if([...input.options].some(x=>x.value===params.get(key)))input.value=params.get(key);
   render();el('analysis-content').hidden=false;

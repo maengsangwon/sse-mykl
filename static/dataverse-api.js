@@ -1,7 +1,7 @@
 /* Public Dataverse synchronization snapshot. No credentials; no fake fallback. */
 (function(root){
 let metaPromise,orgPromise,obsPromise;const detailCache=new Map();
-async function json(path){const r=await fetch('/versions/v8/static/dataverse/'+path);if(!r.ok)throw Error('Dataverse 동기화 자료를 불러오지 못했습니다. 다시 시도해 주세요.');return r.json();}
+async function json(path){const r=await fetch('./versions/v8/static/dataverse/'+path);if(!r.ok)throw Error('Dataverse 동기화 자료를 불러오지 못했습니다. 다시 시도해 주세요.');return r.json();}
 const meta=()=>metaPromise||(metaPromise=json('manifest.json').catch(e=>{metaPromise=null;throw e;}));
 const organizations=()=>orgPromise||(orgPromise=json('organizations.json').catch(e=>{orgPromise=null;throw e;}));
 const observations=()=>obsPromise||(obsPromise=json('observations.json').catch(e=>{obsPromise=null;throw e;}));

@@ -4,7 +4,7 @@
   if(!D)return;
   const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const page=document.body.dataset.lawPage;
-  const links=ns=>'<div class="law-article-chips">'+ns.map(n=>`<a href="/law-articles.html#article-${n}">제${n}조 →</a>`).join('')+'</div>';
+  const links=ns=>'<div class="law-article-chips">'+ns.map(n=>`<a href="./law-articles.html#article-${n}">제${n}조 →</a>`).join('')+'</div>';
   const normalize=s=>s.normalize('NFKC').replace(/\s+/g,'').toLowerCase();
   if(page==='law-articles'){
     const form=$('article-filter'), search=$('article-search'), topic=$('article-topic');
@@ -43,7 +43,7 @@
   }
   // Existing statistical filters retain their own URL/state and link back to the selected type.
   if($('law-type-return')){
-    function update(){const type=$('type')?.value??new URLSearchParams(location.search).get('type');const t=D.organizationTypes.find(t=>t.name===type);$('law-type-return').href='/economy-types.html'+(t?'#type-'+t.id:'');$('law-type-return').textContent=t?`${t.name}의 법률·유형 설명 →`:'13개 유형의 법률·기관 설명 →';}
+    function update(){const type=$('type')?.value??new URLSearchParams(location.search).get('type');const t=D.organizationTypes.find(t=>t.name===type);$('law-type-return').href='./economy-types.html'+(t?'#type-'+t.id:'');$('law-type-return').textContent=t?`${t.name}의 법률·유형 설명 →`:'13개 유형의 법률·기관 설명 →';}
     document.addEventListener('change',e=>{if(e.target.id==='type')queueMicrotask(update);});document.addEventListener('reset',()=>setTimeout(update,0));update();
   }
 })();
