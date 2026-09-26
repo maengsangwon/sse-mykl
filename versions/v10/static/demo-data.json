@@ -1,0 +1,280 @@
+[
+  {
+    "organization": {
+      "id": 1,
+      "name": "[시연] 함께돌봄 사회적협동조합",
+      "types": [
+        "협동조합",
+        "사회적기업"
+      ],
+      "region": "서울",
+      "sector": "돌봄",
+      "summary": "이웃과 함께 만드는 일상 돌봄 서비스",
+      "status": "published",
+      "demo": 1
+    },
+    "disclosures": [
+      {
+        "year": 2025,
+        "version": 2,
+        "revenue": 190000000,
+        "employees": 9,
+        "result": "공시 수치 정정 시연",
+        "source": "PoC 가상 정정자료 / 외부 원문 없음",
+        "published_at": "2026-05-15",
+        "correction": "종사자 수와 매출액 정정"
+      },
+      {
+        "year": 2025,
+        "version": 1,
+        "revenue": 180000000,
+        "employees": 8,
+        "result": "돌봄 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2026-04-30",
+        "correction": ""
+      },
+      {
+        "year": 2024,
+        "version": 1,
+        "revenue": 135000000,
+        "employees": 7,
+        "result": "돌봄 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2025-04-30",
+        "correction": ""
+      }
+    ]
+  },
+  {
+    "organization": {
+      "id": 2,
+      "name": "[시연] 초록순환 주식회사",
+      "types": [
+        "사회적기업"
+      ],
+      "region": "경기",
+      "sector": "환경",
+      "summary": "지역 자원을 다시 연결하는 자원순환 서비스",
+      "status": "published",
+      "demo": 1
+    },
+    "disclosures": [
+      {
+        "year": 2025,
+        "version": 1,
+        "revenue": 315000000,
+        "employees": 15,
+        "result": "환경 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2026-04-30",
+        "correction": ""
+      },
+      {
+        "year": 2024,
+        "version": 1,
+        "revenue": 270000000,
+        "employees": 14,
+        "result": "환경 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2025-04-30",
+        "correction": ""
+      }
+    ]
+  },
+  {
+    "organization": {
+      "id": 3,
+      "name": "[시연] 우리마을 먹거리",
+      "types": [
+        "마을기업"
+      ],
+      "region": "전북",
+      "sector": "먹거리",
+      "summary": "지역 농산물로 만드는 건강한 먹거리",
+      "status": "published",
+      "demo": 1
+    },
+    "disclosures": [
+      {
+        "year": 2025,
+        "version": 1,
+        "revenue": 450000000,
+        "employees": 22,
+        "result": "먹거리 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2026-04-30",
+        "correction": ""
+      },
+      {
+        "year": 2024,
+        "version": 1,
+        "revenue": 405000000,
+        "employees": 21,
+        "result": "먹거리 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2025-04-30",
+        "correction": ""
+      }
+    ]
+  },
+  {
+    "organization": {
+      "id": 4,
+      "name": "[시연] 다시일터 자활기업",
+      "types": [
+        "자활기업"
+      ],
+      "region": "부산",
+      "sector": "생활서비스",
+      "summary": "지역 주민의 자립과 안정적인 일자리를 지원합니다",
+      "status": "published",
+      "demo": 1
+    },
+    "disclosures": [
+      {
+        "year": 2025,
+        "version": 1,
+        "revenue": 585000000,
+        "employees": 29,
+        "result": "생활서비스 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2026-04-30",
+        "correction": ""
+      },
+      {
+        "year": 2024,
+        "version": 1,
+        "revenue": 540000000,
+        "employees": 28,
+        "result": "생활서비스 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2025-04-30",
+        "correction": ""
+      }
+    ]
+  },
+  {
+    "organization": {
+      "id": 5,
+      "name": "[시연] 햇살에너지 협동조합",
+      "types": [
+        "협동조합"
+      ],
+      "region": "전남",
+      "sector": "에너지",
+      "summary": "주민이 함께 참여하는 재생에너지 사업",
+      "status": "published",
+      "demo": 1
+    },
+    "disclosures": [
+      {
+        "year": 2025,
+        "version": 1,
+        "revenue": 720000000,
+        "employees": 36,
+        "result": "에너지 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2026-04-30",
+        "correction": ""
+      },
+      {
+        "year": 2024,
+        "version": 1,
+        "revenue": 675000000,
+        "employees": 35,
+        "result": "에너지 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2025-04-30",
+        "correction": ""
+      }
+    ]
+  },
+  {
+    "organization": {
+      "id": 6,
+      "name": "[시연] 동네기술 연구소",
+      "types": [
+        "소셜벤처"
+      ],
+      "region": "대전",
+      "sector": "기술",
+      "summary": "기술을 통해 지역의 생활문제를 해결합니다",
+      "status": "published",
+      "demo": 1
+    },
+    "disclosures": [
+      {
+        "year": 2025,
+        "version": 1,
+        "revenue": 855000000,
+        "employees": 43,
+        "result": "기술 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2026-04-30",
+        "correction": ""
+      },
+      {
+        "year": 2024,
+        "version": 1,
+        "revenue": 810000000,
+        "employees": 42,
+        "result": "기술 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2025-04-30",
+        "correction": ""
+      }
+    ]
+  },
+  {
+    "organization": {
+      "id": 7,
+      "name": "[시연] 산들살림 소비자생활협동조합",
+      "types": [
+        "소비자생활협동조합"
+      ],
+      "region": "강원",
+      "sector": "먹거리",
+      "summary": "생산자와 소비자를 잇는 지역 공동체",
+      "status": "published",
+      "demo": 1
+    },
+    "disclosures": [
+      {
+        "year": 2025,
+        "version": 1,
+        "revenue": 990000000,
+        "employees": 50,
+        "result": "먹거리 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2026-04-30",
+        "correction": ""
+      },
+      {
+        "year": 2024,
+        "version": 1,
+        "revenue": 945000000,
+        "employees": 49,
+        "result": "먹거리 분야 서비스 운영 및 지역 협력사업 추진. 실제 실적이 아닌 시연 문구입니다.",
+        "source": "PoC 가상 공시자료 / 외부 원문 없음",
+        "published_at": "2025-04-30",
+        "correction": ""
+      }
+    ]
+  },
+  {
+    "organization": {
+      "id": 8,
+      "name": "[시연] 바다이음 협동조합",
+      "types": [
+        "협동조합"
+      ],
+      "region": "제주",
+      "sector": "관광",
+      "summary": "지역의 삶과 자연을 존중하는 여행",
+      "status": "published",
+      "demo": 1
+    },
+    "disclosures": []
+  }
+]

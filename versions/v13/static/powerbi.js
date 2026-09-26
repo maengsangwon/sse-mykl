@@ -1,0 +1,1 @@
+const frame=document.getElementById('bi-report');const status=document.getElementById('bi-status');frame.addEventListener('load',()=>{status.textContent='보고서 표시 영역입니다. 내용이 보이지 않으면 다시 불러오거나 새 창에서 열어 보세요.';});document.getElementById('bi-reload').addEventListener('click',()=>{status.textContent='보고서를 다시 불러오는 중입니다.';frame.src=frame.src;});

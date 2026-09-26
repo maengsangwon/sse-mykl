@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>사회연대경제 통합플랫폼 · PoC</title>
+<link rel="stylesheet" href="/versions/v1/static/style.css"></head><body><aside style="background:#263f36;color:white;padding:12px 20px;text-align:center;font:14px/1.6 sans-serif">보관된 화면 · 버전 1 · 2026.09.23 <a href="/#progress" style="color:white;text-decoration:underline;margin-left:16px">현재 화면과 버전 목록으로</a></aside>
+<div class="notice">시연용 PoC · 모든 조직과 공시 수치는 가상 데이터입니다.</div>
+<header><a class="brand" href="/versions/v1/index.html">◈ <span>사회연대경제 <b>통합플랫폼</b></span></a><nav aria-label="주 메뉴"><a href="#search">조직 찾기</a><a href="#progress">개발 현황</a><a href="#about">이용 안내</a><span class="pill">PUBLIC PREVIEW</span></nav></header>
+<main><section class="hero"><div><p class="eyebrow">함께 만드는 경제, 투명하게 연결되는 정보</p><h1>우리 지역의 가치를 찾고,<br>조직의 활동을 살펴보세요.</h1><p class="intro">사회연대경제 조직 정보와 연도별 경영공시를<br>한곳에서 검색하고 확인할 수 있습니다.</p><a class="hero-link" href="#search">조직 검색 시작하기 ↗</a></div><div class="hero-art" aria-hidden="true"><div class="orbit"></div><div class="tile one">지역<br><strong>COMMUNITY</strong></div><div class="tile two">연대<br><strong>TOGETHER</strong></div><div class="tile three">가치<br><strong>VALUE</strong></div></div></section>
+<section class="metrics" aria-label="시연 데이터 현황"><div><span>공개 조직</span><strong id="org-count">—</strong><small>고유 조직 기준 · 시연</small></div><div><span>연도별 공시</span><strong id="disclosure-count">—</strong><small>조직·연도별 최신본 기준 · 시연</small></div><div><span>정보 이용 안내</span><p>출처와 기준연도를<br>함께 확인하세요.</p></div></section>
+<section id="search" class="search-section"><div class="section-title"><div><p class="eyebrow">ORGANIZATION DIRECTORY</p><h2>사회연대경제 조직 찾기</h2></div><span>지역과 유형으로 좁혀보세요.</span></div>
+<form id="search-form"><label for="query">조직명</label><div class="search-row"><input id="query" name="q" placeholder="찾으시는 조직명을 입력하세요" maxlength="100"><button type="submit">검색</button></div><div class="filters"><label>지역<select id="region"><option value="">전체 지역</option></select></label><label>조직 유형<select id="kind"><option value="">전체 유형</option></select></label><label class="check"><input id="disclosed" type="checkbox">공시가 있는 조직만</label><button class="reset" type="button" id="reset">초기화</button></div></form>
+<div class="results-heading"><p id="result-count" role="status" aria-live="polite">자료를 불러오는 중입니다.</p><span>조직명 순</span></div><div id="results" class="cards"></div><div class="pagination"><button id="prev" type="button">← 이전</button><span id="page-state"></span><button id="next" type="button">다음 →</button></div></section>
+<section id="progress" class="about"><p class="eyebrow">PROJECT UPDATE · 2026.09.23 · v0.1</p><h2>함께 살펴보는 개발 현황</h2>
+<p>사회연대경제 조직과 경영공시를 한곳에서 찾아보는 서비스의 초기 시연입니다. 현재 구현 범위와 다음 과제를 이 페이지에서 확인할 수 있습니다.</p>
+<div><p><b>구현 완료</b><br>조직명·지역·유형 검색<br>조직 상세·연도별 공시 조회<br>출처·공개일·정정 이력 확인</p>
+<p><b>다음 개발 과제</b><br>실제 자료의 항목·기준연도 검토<br>동일 조직 식별·중복 검토<br>공개 승인·원문 연결</p>
+<p><b>현재 데이터 범위</b><br>가상 조직 8개·연도별 공시 14건<br>정정 이력 1건 추가 제공<br>실제 조직의 실적이나 법정 자격과 무관</p></div>
+<details><summary>변경 이력 보기</summary><p>2026.09.23 — 검색·공시 조회 PoC 최초 구현. 관계자가 함께 검토할 수 있도록 개발 현황과 시연 화면을 공개용 사이트로 구성했습니다.</p></details>
+<p class="source">이 페이지의 내용은 버전 게시 시 갱신됩니다. 실제 자료 등록·기관 시스템 연계는 후속 개발 범위입니다.</p></section><section id="about" class="about"><h2>공시 정보를 읽는 방법</h2><div><p><b>01 · 기준연도 확인</b><br>공시의 사업연도와 공개일은 서로 다를 수 있습니다.</p><p><b>02 · 정정 이력 확인</b><br>동일 연도의 최신 공개본과 이전 버전을 함께 제공합니다.</p><p><b>03 · 자료 범위 확인</b><br>공시 미등록은 미공시 의무 위반이나 실적 0을 의미하지 않습니다.</p></div></section></main>
+<footer>사회연대경제 통합플랫폼 PoC <span>제27조 관련 통합조회 기능 검증 · 공식 공시 서비스가 아닙니다.</span></footer>
+<dialog id="detail"><div class="dialog-top"><span class="eyebrow">조직 정보 · 경영공시</span><button id="close" aria-label="상세 닫기">✕</button></div><div id="detail-content"></div></dialog>
+<script src="/versions/v1/static/public-api.js"></script><script src="/versions/v1/static/app.js"></script></body></html>
